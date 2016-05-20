@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Shopping List</title>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=BenchNine:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<section class="title">
+		<h1>Shopping List</h1>
+		Add an Item! <input type="text" class="input-item" value="" /><button class="add-item">Add!</button>
+		<div class="alert"><h3>You didn't enter an item in the box!</h3></div>
+	</section>
+	<section class="items-needed">
+		<h2>Need to Get:</h2>
+		<ul>
+			<li><span class="check"><i class="fa fa-check-square"></i></span><span class="trash"><i class="fa fa-trash"></i></span><span class="item-text">Item 1</span></li>
+			<li><span class="check"><i class="fa fa-check-square"></i></span><span class="trash"><i class="fa fa-trash"></i></span><span class="item-text">Item 2</span></li>
+		</ul>
+	</section>
+	<section class="items-got">
+		<h2>Got:</h2>
+		<ul>
+			<li><span class="undo-got"><i class="fa fa-arrow-circle-up"></i></span><span class="trash"><i class="fa fa-trash"></i></span><span class="item-text">Item 3</span></li>
+			<li><span class="undo-got"><i class="fa fa-arrow-circle-up"></i></span><span class="trash"><i class="fa fa-trash"></i></span><span class="item-text">Item 4</span></li>
+		</ul>		
+	</section>
+</body>
+</html>

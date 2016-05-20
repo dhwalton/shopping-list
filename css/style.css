@@ -1,0 +1,106 @@
+
+body {
+	background-color: #ffe;
+	font-family: 'BenchNine', sans-serif;
+}
+
+section {
+	margin: 0 auto;
+	display: block;
+	padding: 0.5em 1.2em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	color: navy;
+	font-size: 1.25em;
+	padding-left: 1em;
+}
+
+
+.alert {
+	display:none;
+}
+.alert > h3 {
+	color: indianred;
+	font-size: 1em;
+}
+
+.title .add-item {
+	background-color: #999;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 0.75em;
+    width: 3.8em;
+    padding: 0.2rem;
+}
+
+.title > input {
+	width: 30%;
+	height: 1.2em;
+	border: 1px solid black;
+	padding: 0.1rem;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 1.25em;
+	margin-left: 1em;
+}
+
+
+.items-needed, .items-got  {
+	font-size: 1em;
+	padding: 0.5em 0em;
+	border-top: 1px solid steelblue;
+}
+
+.items-needed ul, .items-got ul {
+	padding-left: 1.3em;
+}
+
+.items-needed li:hover, .items-got li:hover {
+	color: steelblue;
+}
+
+.items-needed li, .items-got li {
+	list-style:none;
+	padding: 0.4em;
+	margin-left: 0;
+}
+
+.items-got li {
+	text-decoration: line-through;
+	color: #999;
+}
+
+.check, .trash, .undo-got {
+	padding: 0.1em 0.5em;
+	border: 1px dotted #ddd;
+	margin-right: 1em;
+	color: #ddd;
+}
+
+.check:hover, .trash:hover, .undo-got:hover {
+	border: 1px dotted indianred;
+	color: indianred;
+	cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+	body {
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		font-size: 2em;
+	}
+}
